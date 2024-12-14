@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #f0f8ff; /* Light Azure */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #2e4057; /* Dark Slate Gray */
+}
+
+/* Counter Container */
+.counter-container {
+  background-color: #ffffff; /* White */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 25px;
+  text-align: center;
+  width: 320px;
+  border: 2px solid #34c759; /* Primary Green */
+}
+
+/* Counter Value */
+.counter-value {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 20px 0;
+  color: #34c759; /* Primary Green */
+  text-shadow: 0 0 5px rgba(52, 199, 89, 0.5);
+}
+
+/* Buttons */
+button {
+  background-color: #34c759; /* Primary Green */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 12px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+button:hover {
+  background-color: #2ecc71; /* Light Green */
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: #27ae60; /* Emerald */
+  transform: scale(0.98);
+}
+
+button:disabled {
+  background-color: #dcdcdc; /* Light Gray */
+  cursor: not-allowed;
+  color: #a9a9a9; /* Gray */
+}
+
+/* Decrement Button Styling */
+button.decrement {
+  background-color: #ff6b6b; /* Soft Red */
+}
+
+button.decrement:hover {
+  background-color: #ff4d4d; /* Bright Red */
+}
+
+button.decrement:active {
+  background-color: #e63946; /* Crimson Red */
+}
